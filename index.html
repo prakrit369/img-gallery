@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+	<style type="text/css">
+		.image{
+			width:95%;
+			height:95%;
+			padding-right:1%;
+			padding-left:1%; 
+			padding-top:1%;
+			padding-bottom:1%;
+			border:1px solid #f1f1f1;
+
+		}
+		.apple{
+			padding-top: 70px;
+		}
+
+.jumbotron{
+	color:#2c3e50;
+}
+
+.navbar-inverse{
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+
+
+
+	</style>
+</head>
+<body>
+
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">  <!-- last wali class upar fix krti hai -->
+		<div class="container">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+				<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMG</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container apple">
+		<div class="jumbotron">
+				<h1><i class="fas fa-camera-retro"></i> The Image Gallery</h1>
+				<h4>A bunch of photos that I did not take!</h4>
+
+
+			</div>
+		<div class="row">			<!-- for this .image effect , we can also do div class thumbnail -->
+			<div class="col-lg-4 col-md-6 col-sm-12"><img src="http://getwallpapers.com/wallpaper/full/c/c/3/599468.jpg" class="image"></div>
+			<div class="col-lg-4 col-md-6 col-sm-12"><img src="http://getwallpapers.com/wallpaper/full/b/3/e/599503.jpg" class="image" ></div>
+			<div class="col-lg-4 col-md-6 col-sm-12 "><img src="http://getwallpapers.com/wallpaper/full/2/d/d/599607.jpg" class="image"></div>
+		</div>
+		<p></p>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12"><img src="http://getwallpapers.com/wallpaper/full/b/1/0/599686.jpg" class="image"></div>
+			<div class="col-lg-4 col-md-6 col-sm-12"><img src="http://getwallpapers.com/wallpaper/full/c/2/6/599730.jpg" class="image"></div>
+			<div class="col-lg-4 col-md-6 col-sm-12 "><img src="http://getwallpapers.com/wallpaper/full/a/9/0/599758.jpg" class="image"></div>
+		</div>
+		<p></p>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12"><img src="http://getwallpapers.com/wallpaper/full/d/2/5/599846.jpg" class="image"></div>
+			<div class="col-lg-4 col-md-6 col-sm-12"><img src="http://getwallpapers.com/wallpaper/full/f/e/1/600073.jpg" class="image"></div>
+			<div class="col-lg-4 col-md-6 col-sm-12"><img src="http://getwallpapers.com/wallpaper/full/3/5/7/600114.jpg" class="image"></div>
+		</div>
+	</div>
+
+
+
+
+	
+
+
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html>
